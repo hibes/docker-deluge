@@ -1,0 +1,22 @@
+{
+  "name": "docker-deluge",
+  "version": "0.0.0",
+  "description": "",
+  "main": "not-applicable",
+  "scripts": {
+    "build": "scripts/dockerBuild.sh",
+    "publish": "scripts/publish.sh",
+    "start:docker": "scripts/dockerStart.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hibes/docker-deluge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "htmlparser": "^1.7.7",
+    "nodemailer": "^3.1.7"
+  }
+}
